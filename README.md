@@ -1,9 +1,11 @@
 # Fish-Species-Classification-CNN
 
+# Dataset Link
+https://www.kaggle.com/datasets/markdaniellampa/fish-dataset/data
 
 ---
 
-## The Plan
+## Steps to run locally
 ```
 Windows → WSL2 (Ubuntu) → CUDA 12.x → TensorFlow (latest) → RTX 3060 ✓
 ```
@@ -102,13 +104,3 @@ mixed_precision.set_global_policy('mixed_float16')
 ```
 
 ---
-
-## Summary
-
-| Step | Status |
-|---|---|
-| NVIDIA Driver | ✅ Already installed (576.40) |
-| WSL2 + Ubuntu | 🔲 Install via PowerShell |
-| CUDA in WSL2 | ✅ Auto-provided by Windows driver |
-| TensorFlow | 🔲 `pip install tensorflow[and-cuda]` |
-| Your project files | ✅ Accessible at `/mnt/c/GitHub/...` |
